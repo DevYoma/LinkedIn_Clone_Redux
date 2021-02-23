@@ -59,6 +59,7 @@ function Feed() {
                             type="text"
                             value={input} 
                             onChange={(e) => setInput(e.target.value)}
+                            placeholder="Enter your message"
                         />
                         <button type="submit" onClick={sendPost}>Send</button>
                     </form>
